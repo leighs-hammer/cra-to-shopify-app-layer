@@ -1,0 +1,34 @@
+{
+  "name": "cra-to-shopify-app-layer",
+  "version": "0.0.1",
+  "description": "Compiles CRA assets and tags for inclusion intoa  shopify theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:watch:all": "jest --watchAll",
+    "build:js" : "babel ./src/index.js --out-file ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leighs-hammer/cra-to-shopify-app-layer.git"
+  },
+  "keywords": [
+    "shopify",
+    "create-react-app"
+  ],
+  "author": "Leigh Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leighs-hammer/cra-to-shopify-app-layer/issues"
+  },
+  "homepage": "https://github.com/leighs-hammer/cra-to-shopify-app-layer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10",
+    "ramda": "^0.26.1"
+  }
+}
